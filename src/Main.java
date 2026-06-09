@@ -18,6 +18,7 @@ public class Main {
             if(payment instanceof Refundable refun) {
                 refun.refund();
             }
+            System.out.println("-----------------------------");
         }
     }
 }
